@@ -1,3 +1,20 @@
 .master {
   display: flex;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 400px;
+  max-height:400px;
+  border: 1px solid red;
+}
+
+.column {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.square {
+  flex: 1 1 auto;
+  border: 1px solid black;
 }
